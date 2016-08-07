@@ -5,3 +5,5 @@ Benim oluşturduğum ve değiştirdiğim ilk depom.
 Baba development akıyor!
 
 ## UÇUYORUZ!
+
+## Baba'nın yeni commit'i.
