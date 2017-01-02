@@ -1,0 +1,43 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Soru_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Bir mevsim giriniz : ");
+            string mevsim = Console.ReadLine();
+            if (mevsim == "Yaz" || mevsim == "YAZ")
+            {
+                Console.Write("Karpuz Yaz Meyvesidir.");
+            
+            }
+            else if (mevsim == "İlkbahar" || mevsim == "İLKBAHAR")
+            {
+                Console.Write("Kiraz İlkbahar Meyvesidir.");
+            
+            }
+
+            else if (mevsim == "Sonbahar" || mevsim == "SONBAHAR")
+            {
+                Console.Write("Üzüm Sonbahar Meyvesidir.");
+
+            }
+
+            else if (mevsim == "Kış" || mevsim == "KIŞ")
+            {
+                Console.Write("Portakal Kış Meyvesidir.");
+
+            }
+            else
+            {
+                Console.Write("Lütfen bir mevsim giriniz.");
+            }
+            Console.ReadKey();
+        }
+    }
+}
