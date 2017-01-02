@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Soru_4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Bir sayı giriniz : ");
+            int sayi = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Bir sayı giriniz : ");
+            int sayi2 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Bir sayı giriniz : ");
+            int sayi3 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Bir sayı giriniz : ");
+            int sayi4 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Bir sayı giriniz : ");
+            int sayi5 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Bir sayı giriniz : ");
+            int sayi6 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Bir sayı giriniz : ");
+            int sayi7 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Bir sayı giriniz : ");
+            int sayi8 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Bir sayı giriniz : ");
+            int sayi9 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Bir sayı giriniz : ");
+            int sayi10 = Convert.ToInt32(Console.ReadLine());
+            Console.Write(sayi + sayi2 + sayi3 + sayi4 + sayi5 + sayi6 + sayi7 + sayi8 + sayi9 + sayi10);
+            Console.ReadKey();
+            
+        }
+    }
+}
